@@ -1,0 +1,5 @@
+bundled offline package (preferred): HillstoneSecureConnect_5.7.1.12488_c5c25286.run
+upstream: https://images.hillstonenet.com/uploads/20260130/202601301528530153/HillstoneSecureConnect_5.7.1.12488_c5c25286.run
+version: 5.7.1.12488
+sha note: filename hash suffix c5c25286
+init/start 会在日志打印 mode=bundled + local_path + upstream_url

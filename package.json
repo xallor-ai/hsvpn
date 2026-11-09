@@ -1,0 +1,38 @@
+{
+  "name": "@wangkanga/hsvpn",
+  "version": "1.0.0",
+  "description": "Hillstone Secure Connect host-mode CLI: init / start / stop / status",
+  "bin": {
+    "hsvpn": "bin/hsvpn.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "vendor",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "start": "node bin/hsvpn.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "hillstone",
+    "vpn",
+    "sslvpn",
+    "cli"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "js-yaml": "^4.1.0"
+  }
+}

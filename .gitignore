@@ -1,0 +1,12 @@
+node_modules/
+npm-debug.log*
+.env
+*.log
+pids/
+logs/
+_smoke/
+.DS_Store
+*.tgz
+.idea/
+.vscode/
+_tmp_*

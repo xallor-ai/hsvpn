@@ -1,0 +1,20 @@
+# hsvpn 工作目录配置（改完即可 start）
+runtime: host
+
+install_dir: /opt/HillstoneSecureConnect
+ipc_file: /tmp/HillstoneSecureConnectipc
+userdata_dir: ~/.local/share/HillstoneSecureConnect
+profile: default
+enable_spa: true
+
+gateway:
+  host: 140.210.65.134   # 改成你的网关
+  port: 64433
+
+auth:
+  username: your-user    # 改成你的账号
+  password: your-pass    # 改成你的密码
+
+dial:
+  keepalive_sec: 1
+  reconnect_sec: 5
